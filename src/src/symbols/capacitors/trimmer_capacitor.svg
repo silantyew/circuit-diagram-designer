@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="258mm"
+   height="292mm"
+   viewBox="0 0 258 292"
+   version="1.1"
+   id="svg374"
+   inkscape:export-filename="unpolarized_electrolytic_capacitor.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview376"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs371" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path6005"
+       d="M 8.3911,166.00985 H 212.38852"
+       style="fill:none;stroke:#000000;stroke-width:13.4097;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6007"
+       d="M 8.3911,125.76313 H 212.38852"
+       style="fill:none;stroke:#000000;stroke-width:13.4097;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5455-6"
+       d="m 180.99648,12.194492 67.65087,65.772861"
+       style="fill:none;stroke:#000000;stroke-width:13.4097;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path1965"
+       d="M 110.38991,6.9168409 V 123.90229 m 0,42.55958 v 118.94526"
+       style="fill:none;stroke:#000000;stroke-width:13.4097;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       x1="5.042963"
+       y1="248.12671"
+       x2="215.73853"
+       y2="44.191933"
+       id="line5386-2-2"
+       style="fill:none;stroke:#000000;stroke-width:13.4097;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="421.99997mm"
+   height="120mm"
+   viewBox="0 0 421.99997 120"
+   version="1.1"
+   id="svg525"
+   inkscape:export-filename="bitmap.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview527"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs522" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="cccc"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 415.76448,59.789665 h -72.20239 m -264.564933,0 H 6.7954625"
+       id="path2543"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path2545"
+       d="M 78.997157,112.72446 V 6.8554277 H 343.56209 V 112.72446 Z"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       x1="145.89508"
+       y1="27.083763"
+       x2="189.4845"
+       y2="92.492912"
+       id="line4951-8"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       x1="189.4845"
+       y1="27.083763"
+       x2="233.07202"
+       y2="92.492912"
+       id="line4953-6"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       x1="233.07202"
+       y1="27.083763"
+       x2="276.66296"
+       y2="92.492912"
+       id="line4955-5"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

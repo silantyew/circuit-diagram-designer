@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="421.99997mm"
+   height="119mm"
+   viewBox="0 0 421.99997 119"
+   version="1.1"
+   id="svg2556"
+   inkscape:export-filename="resistor_0.125w.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2558"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2553" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path2555"
+       d="m 415.41904,59.516513 h -72.20289 m -264.56423,0 H 6.4500421"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 78.65192,112.45129 V 6.5822787 H 343.21615 V 112.45129 Z"
+       id="path2557"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line5053-3"
+       y2="92.221062"
+       x2="232.72704"
+       y1="26.810848"
+       x1="189.14034" />
+  </g>
+</svg>

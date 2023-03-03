@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="212mm"
+   height="292mm"
+   viewBox="0 0 212 292"
+   version="1.1"
+   id="svg374"
+   inkscape:export-filename="polarized_capacitor.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview376"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs371" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5910"
+       d="M 105.79891,6.7070121 V 86.390519 m 0,120.732431 v 78.25307"
+       style="fill:none;stroke:#000000;stroke-width:13.231;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="rect5964"
+       d="M 6.5649931,86.503049 H 205.03397 V 126.19587 H 6.5649931 Z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       id="rect5966"
+       d="M 6.5649931,165.8887 H 205.03397 v 39.69282 H 6.5649931 Z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:13.231;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

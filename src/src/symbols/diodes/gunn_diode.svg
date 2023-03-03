@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="355mm"
+   height="139mm"
+   viewBox="0 0 355 139"
+   version="1.1"
+   id="svg794"
+   inkscape:export-filename="avalanche_diode.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview796"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs791" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       d="M 6.8557211,69.668176 H 347.64318"
+       style="fill:none;stroke:#000000;stroke-width:13.7125;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3373" />
+    <path
+       inkscape:transform-center-x="547.15917"
+       inkscape:connector-curvature="0"
+       d="M 84.490321,12.532338 179.13852,69.298196 84.490321,126.80403 Z"
+       style="fill:#000000;stroke:#000000;stroke-width:13.7125;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3375"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path3383"
+       style="fill:#000000;stroke:#000000;stroke-width:13.7125;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 270.00959,12.532338 -94.64821,56.765858 94.64821,57.505834 z"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-547.15913" />
+  </g>
+</svg>

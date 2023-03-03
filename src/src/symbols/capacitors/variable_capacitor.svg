@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="252mm"
+   height="296mm"
+   viewBox="0 0 252 296"
+   version="1.1"
+   id="svg374"
+   inkscape:export-filename="trimmer_capacitor.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview376"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs371" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path6052"
+       d="M 107.98043,6.7667621 V 288.99836"
+       style="fill:none;stroke:#000000;stroke-width:13.4302;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6057"
+       d="M 7.0266258,167.99643 H 208.93427"
+       style="fill:none;stroke:#000000;stroke-width:13.4302;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6059"
+       d="M 7.0266258,127.20852 H 208.93427"
+       style="fill:none;stroke:#000000;stroke-width:13.4302;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:13.4302;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line6063"
+       y2="44.544582"
+       x2="212.25066"
+       y1="251.21863"
+       x1="3.7139478" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:8.95348"
+       id="path5278-7"
+       d="M 250.78782,6.1809724 173.71197,43.15521 213.64581,82.90893 Z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="355mm"
+   height="310mm"
+   viewBox="0 0 355 310"
+   version="1.1"
+   id="svg794"
+   inkscape:export-filename="thyristor_1.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview796"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs791" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 140.62071,15.403568 94.78322,52.747861 -94.78322,53.430421 z"
+       style="fill:none;stroke:#000000;stroke-width:13.2274;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6298"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path6300"
+       style="fill:none;stroke:#000000;stroke-width:13.2274;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.9903147,68.492699 H 348.26291"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       d="M 37.525515,300.14508 V 181.10193 L 140.62071,121.58185"
+       style="fill:none;stroke:#000000;stroke-width:13.2274;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6302" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       d="M 235.42294,128.01564 V 8.9724631"
+       style="fill:none;stroke:#000000;stroke-width:13.2274;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6304" />
+  </g>
+</svg>

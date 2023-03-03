@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="421.99997mm"
+   height="371mm"
+   viewBox="0 0 421.99997 371"
+   version="1.1"
+   id="svg2556"
+   inkscape:export-filename="strain_gauge.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2558"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2553" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:12.8575;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 325.25244,9.2327057 93.283659,226.95799 h -79.05173"
+       id="path7121-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       id="text7123-9"
+       y="379.87439"
+       x="22.281462"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:102.859px;line-height:0%;font-family:Rones;-inkscape-font-specification:Rones;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:8.57164"
+       xml:space="preserve"
+       transform="scale(1.0297778,0.97108327)"><tspan
+         y="379.87439"
+         x="22.281462"
+         id="tspan7125-6"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.433px;line-height:1.25;font-family:Rones;-inkscape-font-specification:Rones;stroke-width:8.57164">t°</tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       style="fill:none;stroke:#000000;stroke-width:12.8575;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 415.82789,118.62458 h -72.268 m -264.806491,0 h -72.268"
+       id="path2941"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path2943"
+       d="M 78.753399,168.56734 V 68.681972 H 343.55989 v 99.885368 z"
+       style="fill:none;stroke:#000000;stroke-width:12.8575;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

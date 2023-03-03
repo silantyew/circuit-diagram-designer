@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="556mm"
+   height="318mm"
+   viewBox="0 0 556 318"
+   version="1.1"
+   id="svg788"
+   inkscape:export-filename="nc_reed_switch.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview790"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs785" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.2292;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 351.08973,220.32731 H 541.80978"
+       id="path7035-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.2292;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 13.638952,97.406356 H 209.71592 V 220.32731 l 158.69054,-91.65339"
+       id="path7037-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path7039-1"
+       d="M 541.80978,97.406356 H 351.08973 l 0.79999,65.019544"
+       style="fill:none;stroke:#000000;stroke-width:13.2292;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:13.2292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path7041-6"
+       cx="290.19592"
+       cy="158.8676"
+       rx="152.13438"
+       ry="152.13542" />
+  </g>
+</svg>

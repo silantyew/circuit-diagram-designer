@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="421.99997mm"
+   height="273mm"
+   viewBox="0 0 421.99997 273"
+   version="1.1"
+   id="svg2023"
+   inkscape:export-filename="trimmer_potentiometer.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2025"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2020" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path5455-3"
+       d="M 285.0988,8.9902998 359.35394,81.739531"
+       style="fill:none;stroke:#000000;stroke-width:13.0976;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       x1="93.503143"
+       y1="268.45319"
+       x2="324.767"
+       y2="42.889153"
+       id="line5386-2-1"
+       style="fill:none;stroke:#000000;stroke-width:13.0976;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2813"
+       d="m 415.65144,153.74538 h -72.22561 m -264.651215,0 H 6.5490054"
+       style="fill:none;stroke:#000000;stroke-width:13.0976;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.0976;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 78.774615,205.60095 V 101.88963 H 343.42583 v 103.71132 z"
+       id="path2815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

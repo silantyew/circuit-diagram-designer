@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="480mm"
+   height="319mm"
+   viewBox="0 0 480 319"
+   version="1.1"
+   id="svg525"
+   inkscape:export-filename="darlington_transistor.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview527"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs522" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path3789"
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 114.0119,159.5368 c 0,-84.268209 68.30692,-152.5789522 152.58198,-152.5789522 84.26506,0 152.57197,68.3107432 152.57197,152.5789522 0,84.27845 -68.30691,152.59066 -152.57197,152.59066 -84.27506,0 -152.58198,-68.31221 -152.58198,-152.59066 z"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:transform-center-y="-644.47668"
+       inkscape:transform-center-x="2767.0874"
+       id="path3791"
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 124.96269,102.73625 H 7.0801912"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 233.00946,271.04643 V 48.038881"
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3793" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 152.67868,136.19327 62.77651,16.76815 -46.10431,-46.18329"
+       id="path3797"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-2497.0747"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-y="0.00017196796" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 125.64574,101.06633 83.30799,48.0985"
+       id="path3799"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-1384.4946"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:transform-center-y="0.0051979293"
+       inkscape:connector-curvature="0"
+       d="M 473.74978,238.92741 H 239.98396"
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3801"
+       inkscape:transform-center-x="-1325.9206" />
+    <path
+       inkscape:transform-center-y="0.0033333057"
+       inkscape:transform-center-x="-1326.4895"
+       id="path3805"
+       style="fill:none;stroke:#000000;stroke-width:13.2304;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 472.00265,80.156431 H 238.23684"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
