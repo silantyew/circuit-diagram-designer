@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <library>
   <section label="Power supplies">
-    <component id="battery_cell" label="Battery cell" acronym="?" icon="src/symbols/power_supplies/battery_cell.svg" width="38" height="51">
+    <component id="battery_cell" label="Battery cell" acronym="GB" icon="src/symbols/power_supplies/battery_cell.svg" width="38" height="51">
       <pin x="19" y="0"></pin>
       <pin x="19" y="55"></pin>
     </component>
     
-    <component id="battery" label="Battery" acronym="?" icon="src/symbols/power_supplies/battery.svg" width="38" height="109">
+    <component id="battery" label="Battery" acronym="GB" icon="src/symbols/power_supplies/battery.svg" width="38" height="109">
       <pin x="19" y="0"></pin>
       <pin x="19" y="108"></pin>
     </component>
@@ -23,60 +23,60 @@
       <pin x="17.5" y="0"></pin>
     </component>
     
-    <component id="fuse" label="Fuse" acronym="?" icon="src/symbols/power_supplies/fuse.svg" width="75" height="21">
+    <component id="fuse" label="Fuse" acronym="FU" icon="src/symbols/power_supplies/fuse.svg" width="75" height="21">
     </component>
   </section>
   
   <section label="Switches/relays">
-    <component id="no_contact" label="N.O. contact" acronym="?" icon="src/symbols/switches_and_relays/no_contact.svg" width="20" height="80">
+    <component id="no_contact" label="N.O. contact" acronym="SA" icon="src/symbols/switches_and_relays/no_contact.svg" width="20" height="80">
       <pin x="18" y="0"></pin>
       <pin x="18" y="84"></pin>
     </component>
     
-    <component id="nc_contact" label="N.C. contact" acronym="?" icon="src/symbols/switches_and_relays/nc_contact.svg" width="27" height="80">
+    <component id="nc_contact" label="N.C. contact" acronym="SA" icon="src/symbols/switches_and_relays/nc_contact.svg" width="27" height="80">
       <pin x="1" y="0"></pin>
       <pin x="1" y="75.5"></pin>
     </component>
     
-    <component id="changeover_contact" label="Changeover contact" acronym="?" icon="src/symbols/switches_and_relays/changeover_contact.svg" width="26" height="80">
+    <component id="changeover_contact" label="Changeover contact" acronym="SA" icon="src/symbols/switches_and_relays/changeover_contact.svg" width="26" height="80">
       <pin x="1" y="0"></pin>
       <pin x="23" y="0"></pin>
       <pin x="1" y="75.5"></pin>
     </component>
     
-    <component id="no_push_button" label="N.O. push button" acronym="?" icon="src/symbols/switches_and_relays/no_push_button.svg" width="80" height="39">
+    <component id="no_push_button" label="N.O. push button" acronym="SB" icon="src/symbols/switches_and_relays/no_push_button.svg" width="80" height="39">
       <pin x="0" y="37.5"></pin>
       <pin x="84" y="37.5"></pin>
     </component>
     
-    <component id="nc_push_button" label="N.C. push button" acronym="?" icon="src/symbols/switches_and_relays/nc_push_button.svg" width="80" height="37">
+    <component id="nc_push_button" label="N.C. push button" acronym="SB" icon="src/symbols/switches_and_relays/nc_push_button.svg" width="80" height="37">
       <pin x="1" y="17"></pin>
       <pin x="75.5" y="17"></pin>
     </component>
     
-    <component id="changeover_push_button" label="Changeover push button" acronym="?" icon="src/symbols/switches_and_relays/changeover_push_button.svg" width="80" height="37">
+    <component id="changeover_push_button" label="Changeover push button" acronym="SB" icon="src/symbols/switches_and_relays/changeover_push_button.svg" width="80" height="37">
       <pin x="0" y="17"></pin>
       <pin x="75.5" y="17"></pin>
       <pin x="75.5" y="35.5"></pin>
     </component>
     
-    <component id="no_reed_switch" label="N.O. reed switch" acronym="?" icon="src/symbols/switches_and_relays/no_reed_switch.svg" width="100" height="56">
+    <component id="no_reed_switch" label="N.O. reed switch" acronym="SF" icon="src/symbols/switches_and_relays/no_reed_switch.svg" width="100" height="56">
       <pin x="0" y="28"></pin>
       <pin x="98.5" y="28"></pin>
     </component>
     
-    <component id="nc_reed_switch" label="N.C. reed switch" acronym="?" icon="src/symbols/switches_and_relays/nc_reed_switch.svg" width="100" height="56">
+    <component id="nc_reed_switch" label="N.C. reed switch" acronym="SF" icon="src/symbols/switches_and_relays/nc_reed_switch.svg" width="100" height="56">
       <pin x="1" y="29"></pin>
       <pin x="98" y="29"></pin>
     </component>
     
-    <component id="changeover_reed_switch" label="Changeover reed switch" acronym="?" icon="src/symbols/switches_and_relays/changeover_reed_switch.svg" width="100" height="56">
+    <component id="changeover_reed_switch" label="Changeover reed switch" acronym="SF" icon="src/symbols/switches_and_relays/changeover_reed_switch.svg" width="100" height="56">
       <pin x="1" y="17"></pin>
       <pin x="97" y="17"></pin>
       <pin x="97" y="39"></pin>
     </component>
     
-    <component id="relay" label="Relay" acronym="?" icon="src/symbols/switches_and_relays/relay.svg" width="140" height="76">
+    <component id="relay" label="Relay" acronym="RL" icon="src/symbols/switches_and_relays/relay.svg" width="140" height="76">
       <pin x="29" y="0"></pin>
       <pin x="92" y="0"></pin>
       <pin x="115" y="0"></pin>
@@ -86,7 +86,7 @@
       <pin x="115" y="76"></pin>
     </component>
     
-    <component id="polarized_relay" label="Polarized_relay" acronym="?" icon="src/symbols/switches_and_relays/polarized_relay.svg" width="150" height="76">
+    <component id="polarized_relay" label="Polarized_relay" acronym="RL" icon="src/symbols/switches_and_relays/polarized_relay.svg" width="150" height="76">
       <pin x="54" y="0"></pin>
       <pin x="114" y="0"></pin>
       <pin x="135" y="0"></pin>
@@ -168,7 +168,7 @@
       <pin x="94" y="55"></pin>
     </component>
     
-    <component id="thermistor" label="Thermistor" acronym="R" icon="src/symbols/resistors/thermistor.svg" width="75" height="65">
+    <component id="thermistor" label="Thermistor" acronym="RK" icon="src/symbols/resistors/thermistor.svg" width="75" height="65">
       <pin x="0" y="20"></pin>
       <pin x="75" y="20"></pin>
     </component>
@@ -178,7 +178,7 @@
       <pin x="75" y="20"></pin>
     </component>
     
-    <component id="varistor" label="Varistor" acronym="R" icon="src/symbols/resistors/varistor.svg" width="75" height="50">
+    <component id="varistor" label="Varistor" acronym="RU" icon="src/symbols/resistors/varistor.svg" width="75" height="50">
       <pin x="0" y="21"></pin>
       <pin x="75" y="21"></pin>
     </component>
@@ -227,109 +227,109 @@
   </section>
   
   <section label="Diodes">
-    <component id="diode" label="Diode" acronym="D" icon="src/symbols/diodes/diode.svg" width="63" height="24">
+    <component id="diode" label="Diode" acronym="VD" icon="src/symbols/diodes/diode.svg" width="63" height="24">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="diode_bridge" label="Diode bridge" acronym="D" icon="src/symbols/diodes/diode_bridge.svg" width="92" height="92">
+    <component id="diode_bridge" label="Diode bridge" acronym="VD" icon="src/symbols/diodes/diode_bridge.svg" width="92" height="92">
       <pin x="0" y="46"></pin>
       <pin x="46" y="0"></pin>
       <pin x="92" y="46"></pin>
       <pin x="46" y="92"></pin>
     </component>
     
-    <component id="led" label="LED" acronym="D" icon="src/symbols/diodes/led.svg" width="85" height="77">
+    <component id="led" label="LED" acronym="VD" icon="src/symbols/diodes/led.svg" width="85" height="77">
       <pin x="0" y="52"></pin>
       <pin x="63" y="52"></pin>
     </component>
     
-    <component id="photodiode" label="Photodiode" acronym="D" icon="src/symbols/diodes/photodiode.svg" width="85" height="80">
+    <component id="photodiode" label="Photodiode" acronym="VD" icon="src/symbols/diodes/photodiode.svg" width="85" height="80">
       <pin x="22.5" y="57"></pin>
       <pin x="85.5" y="57"></pin>
     </component>
     
-    <component id="zener_diode" label="Zener diode" acronym="D" icon="src/symbols/diodes/zener_diode.svg" width="60" height="25">
+    <component id="zener_diode" label="Zener diode" acronym="VD" icon="src/symbols/diodes/zener_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="tunnel_diode" label="Tunnel diode" acronym="D" icon="src/symbols/diodes/tunnel_diode.svg" width="60" height="25">
+    <component id="tunnel_diode" label="Tunnel diode" acronym="VD" icon="src/symbols/diodes/tunnel_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="schottky_diode" label="Schottky diode" acronym="D" icon="src/symbols/diodes/schottky_diode.svg" width="60" height="25">
+    <component id="schottky_diode" label="Schottky diode" acronym="VD" icon="src/symbols/diodes/schottky_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="suppressor_diode" label="Suppressor diode" acronym="D" icon="src/symbols/diodes/suppressor_diode.svg" width="60" height="25">
+    <component id="suppressor_diode" label="Suppressor diode" acronym="VD" icon="src/symbols/diodes/suppressor_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="varicap" label="Varicap" acronym="D" icon="src/symbols/diodes/varicap.svg" width="60" height="25">
+    <component id="varicap" label="Varicap" acronym="VD" icon="src/symbols/diodes/varicap.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="avalanche_diode" label="Avalanche diode" acronym="D" icon="src/symbols/diodes/avalanche_diode.svg" width="60" height="25">
+    <component id="avalanche_diode" label="Avalanche diode" acronym="VD" icon="src/symbols/diodes/avalanche_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="diode_thyristor" label="Diode thyristor" acronym="D" icon="src/symbols/diodes/diode_thyristor.svg" width="60" height="25">
+    <component id="diode_thyristor" label="Diode thyristor" acronym="VD" icon="src/symbols/diodes/diode_thyristor.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="double_anode_zener_diode" label="Double anode Zener diode" acronym="D" icon="src/symbols/diodes/double_anode_zener_diode.svg" width="60" height="25">
+    <component id="double_anode_zener_diode" label="Double anode Zener diode" acronym="VD" icon="src/symbols/diodes/double_anode_zener_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="gunn_diode" label="Gunn diode" acronym="D" icon="src/symbols/diodes/gunn_diode.svg" width="60" height="25">
+    <component id="gunn_diode" label="Gunn diode" acronym="VD" icon="src/symbols/diodes/gunn_diode.svg" width="60" height="25">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
     </component>
     
-    <component id="thyristor1" label="Thyristor 1" acronym="D" icon="src/symbols/diodes/thyristor_1.svg" width="60" height="55">
+    <component id="thyristor1" label="Thyristor 1" acronym="VS" icon="src/symbols/diodes/thyristor_1.svg" width="60" height="55">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
       <pin x="57" y="55"></pin>
     </component>
     
-    <component id="thyristor2" label="Thyristor 2" acronym="D" icon="src/symbols/diodes/thyristor_2.svg" width="60" height="55">
+    <component id="thyristor2" label="Thyristor 2" acronym="VS" icon="src/symbols/diodes/thyristor_2.svg" width="60" height="55">
       <pin x="0" y="12"></pin>
       <pin x="63" y="12"></pin>
       <pin x="6" y="55"></pin>
     </component>
     
-    <component id="gate_turn_off_thyristor" label="Gate turn off thyristor" acronym="D" icon="src/symbols/diodes/gate_turn_off_thyristor.svg" width="68" height="60">
+    <component id="gate_turn_off_thyristor" label="Gate turn off thyristor" acronym="VS" icon="src/symbols/diodes/gate_turn_off_thyristor.svg" width="68" height="60">
       <pin x="0" y="13"></pin>
       <pin x="63" y="13"></pin>
       <pin x="60" y="65"></pin>
     </component>
     
-    <component id="integrated_gate_commutated_thyristor" label="Integrated gate commutated thyristor" acronym="D" icon="src/symbols/diodes/integrated_gate_commutated_thyristor.svg" width="60" height="46">
+    <component id="integrated_gate_commutated_thyristor" label="Integrated gate commutated thyristor" acronym="VS" icon="src/symbols/diodes/integrated_gate_commutated_thyristor.svg" width="60" height="46">
       <pin x="0" y="11"></pin>
       <pin x="63" y="11"></pin>
       <pin x="57" y="45.5"></pin>
     </component>
     
-    <component id="photothyristor" label="Photothyristor" acronym="D" icon="src/symbols/diodes/photothyristor.svg" width="85" height="89">
+    <component id="photothyristor" label="Photothyristor" acronym="VS" icon="src/symbols/diodes/photothyristor.svg" width="85" height="89">
       <pin x="22.5" y="47.5"></pin>
       <pin x="85.5" y="47.5"></pin>
       <pin x="80" y="89"></pin>
     </component>
     
-    <component id="diac" label="Diac" acronym="D" icon="src/symbols/diodes/diac.svg" width="63" height="44">
+    <component id="diac" label="Diac" acronym="VD" icon="src/symbols/diodes/diac.svg" width="63" height="44">
       <pin x="0" y="22"></pin>
       <pin x="63" y="22"></pin>
     </component>
     
-    <component id="triac" label="Triac" acronym="D" icon="src/symbols/diodes/triac.svg" width="63" height="66">
+    <component id="triac" label="Triac" acronym="VS" icon="src/symbols/diodes/triac.svg" width="63" height="66">
       <pin x="0" y="28"></pin>
       <pin x="63" y="10.5"></pin>
       <pin x="5" y="66"></pin>
@@ -413,17 +413,17 @@
   </section>
   
   <section label="Audio">
-    <component id="earphone" label="Earphone" acronym="?" icon="src/symbols/audio/earphone.svg" width="21" height="71">
+    <component id="earphone" label="Earphone" acronym="BF" icon="src/symbols/audio/earphone.svg" width="21" height="71">
       <pin x="9.5" y="0"></pin>
       <pin x="9.5" y="71.5"></pin>
     </component>
     
-    <component id="speaker" label="Speaker" acronym="?" icon="src/symbols/audio/speaker.svg" width="29" height="72">
+    <component id="speaker" label="Speaker" acronym="BA" icon="src/symbols/audio/speaker.svg" width="29" height="72">
       <pin x="20.5" y="0"></pin>
       <pin x="20.5" y="72"></pin>
     </component>
     
-    <component id="microphone" label="Microphone" acronym="?" icon="src/symbols/audio/microphone.svg" width="42" height="82">
+    <component id="microphone" label="Microphone" acronym="BM" icon="src/symbols/audio/microphone.svg" width="42" height="82">
       <pin x="21" y="0"></pin>
       <pin x="21" y="82.5"></pin>
     </component>
