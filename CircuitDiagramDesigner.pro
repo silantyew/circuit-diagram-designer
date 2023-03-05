@@ -9,7 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    circuitdiagramviewer.cpp \
+    circuitdiagrameditor.cpp \
     electroniccomponent.cpp \
     junction.cpp \
     main.cpp \
@@ -18,7 +18,7 @@ SOURCES += \
     wire.cpp
 
 HEADERS += \
-    circuitdiagramviewer.h \
+    circuitdiagrameditor.h \
     electroniccomponent.h \
     junction.h \
     mainwindow.h \

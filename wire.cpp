@@ -3,7 +3,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsWidget>
 #include "parameters.h"
-#include "circuitdiagramviewer.h"
+#include "circuitdiagrameditor.h"
 
 
 Wire::Wire()
@@ -84,12 +84,12 @@ void Wire::handleWireSegmentRemoving()
 
             if(newWire1->vertexes().length() > 1)
             {
-                dynamic_cast<CircuitDiagramViewer*>(this->scene()->views().first())->placeWire(newWire1);
+                dynamic_cast<CircuitDiagramEditor*>(this->scene()->views().first())->placeWire(newWire1);
             }
 
             if(newWire2->vertexes().length() > 1)
             {
-                dynamic_cast<CircuitDiagramViewer*>(this->scene()->views().first())->placeWire(newWire2);
+                dynamic_cast<CircuitDiagramEditor*>(this->scene()->views().first())->placeWire(newWire2);
             }
 
             delete this;

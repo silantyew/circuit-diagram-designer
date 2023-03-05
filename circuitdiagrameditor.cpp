@@ -1,4 +1,4 @@
-#include "circuitdiagramviewer.h"
+#include "circuitdiagrameditor.h"
 #include <QVector>
 #include <QKeyEvent>
 #include <QDebug> // TODO: remove
@@ -6,7 +6,7 @@
 #include "wire.h"
 
 
-CircuitDiagramViewer::Scene::Scene() : wireDrawingInProgress(false), \
+CircuitDiagramEditor::Scene::Scene() : wireDrawingInProgress(false), \
                                        previewWire(new PreviewWire)
 {
     this->addItem(previewWire);
@@ -17,12 +17,12 @@ CircuitDiagramViewer::Scene::Scene() : wireDrawingInProgress(false), \
                                      QPen(Qt::black), QBrush(Qt::white, Qt::Dense1Pattern));
 }
 
-QGraphicsRectItem* CircuitDiagramViewer::Scene::workplace()
+QGraphicsRectItem* CircuitDiagramEditor::Scene::workplace()
 {
     return this->_workplace;
 }
 
-CircuitDiagramViewer::Scene::~Scene()
+CircuitDiagramEditor::Scene::~Scene()
 {
     /*if(this->newWire)
     {
@@ -31,13 +31,13 @@ CircuitDiagramViewer::Scene::~Scene()
     delete this->previewWire;*/
 }
 
-void CircuitDiagramViewer::clear()
+void CircuitDiagramEditor::clear()
 {
     delete this->_scene;
     this->setScene(this->_scene = new Scene);
 }
 
-void CircuitDiagramViewer::Scene::copyPreviewWireToNewWire()
+void CircuitDiagramEditor::Scene::copyPreviewWireToNewWire()
 {
     switch(this->previewWire->direction())
     {
@@ -54,7 +54,7 @@ void CircuitDiagramViewer::Scene::copyPreviewWireToNewWire()
     }
 }
 
-void CircuitDiagramViewer::Scene::mouseDoubleClickEvent(QGraphicsSceneMouseEvent* event)
+void CircuitDiagramEditor::Scene::mouseDoubleClickEvent(QGraphicsSceneMouseEvent* event)
 {
     if(event->button() == Qt::MouseButton::LeftButton)
     {
@@ -62,7 +62,7 @@ void CircuitDiagramViewer::Scene::mouseDoubleClickEvent(QGraphicsSceneMouseEvent
     }
 }
 
-void CircuitDiagramViewer::Scene::changeWireDrawingState(QPointF vertexPos)
+void CircuitDiagramEditor::Scene::changeWireDrawingState(QPointF vertexPos)
 {
     if(!this->wireDrawingInProgress)
     {
@@ -86,7 +86,7 @@ void CircuitDiagramViewer::Scene::changeWireDrawingState(QPointF vertexPos)
     this->wireDrawingInProgress = !this->wireDrawingInProgress;
 }
 
-void CircuitDiagramViewer::Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent* event)
+void CircuitDiagramEditor::Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent* event)
 {
     QGraphicsScene::mouseReleaseEvent(event);
 
@@ -100,7 +100,7 @@ void CircuitDiagramViewer::Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent* ev
     }
 }
 
-void CircuitDiagramViewer::Scene::mouseMoveEvent(QGraphicsSceneMouseEvent* event)
+void CircuitDiagramEditor::Scene::mouseMoveEvent(QGraphicsSceneMouseEvent* event)
 {
     if(this->wireDrawingInProgress)
     {
@@ -111,7 +111,7 @@ void CircuitDiagramViewer::Scene::mouseMoveEvent(QGraphicsSceneMouseEvent* event
     QGraphicsScene::mouseMoveEvent(event);
 }
 
-void CircuitDiagramViewer::Scene::keyPressEvent(QKeyEvent* event)
+void CircuitDiagramEditor::Scene::keyPressEvent(QKeyEvent* event)
 {
     if(this->wireDrawingInProgress)
     {
@@ -137,34 +137,34 @@ void CircuitDiagramViewer::Scene::keyPressEvent(QKeyEvent* event)
     }
 }
 
-CircuitDiagramViewer::CircuitDiagramViewer(QSize viewerSize, QWidget* parent) : \
+CircuitDiagramEditor::CircuitDiagramEditor(QWidget* parent, QSize viewerSize) : \
     QGraphicsView(this->_scene = new Scene, parent), \
     currentScaleFactor(1)
 {
     this->setMinimumSize(viewerSize);
-    this->setMaximumSize(viewerSize);
+    //this->setMaximumSize(viewerSize); // disabled due to layout usage
     this->setAlignment(Qt::AlignTop | Qt::AlignLeft);
     this->_scene->workplace()->setZValue(-1);
 }
 
-CircuitDiagramViewer::~CircuitDiagramViewer()
+CircuitDiagramEditor::~CircuitDiagramEditor()
 {
     delete this->_scene;
     //delete this->workplace;
 }
 
-void CircuitDiagramViewer::placeComponent(ElectronicComponent *device, QPoint pos)
+void CircuitDiagramEditor::placeComponent(ElectronicComponent *device, QPoint pos)
 {
     device->setPos(pos);
     this->_scene->addItem(device);
 }
 
-void CircuitDiagramViewer::placeWire(Wire* wire)
+void CircuitDiagramEditor::placeWire(Wire* wire)
 {
     this->_scene->addItem(wire);
 }
 
-void CircuitDiagramViewer::zoomIn()
+void CircuitDiagramEditor::zoomIn()
 {
     if(this->currentScaleFactor <= 8)
     {
@@ -173,7 +173,7 @@ void CircuitDiagramViewer::zoomIn()
     }
 }
 
-void CircuitDiagramViewer::zoomOut()
+void CircuitDiagramEditor::zoomOut()
 {
     if(this->currentScaleFactor >= 0.125)
     {
@@ -182,12 +182,12 @@ void CircuitDiagramViewer::zoomOut()
     }
 }
 
-QRectF CircuitDiagramViewer::getWorkplaceRect()
+QRectF CircuitDiagramEditor::getWorkplaceRect()
 {
     return this->_scene->workplace()->rect();
 }
 
-void CircuitDiagramViewer::wheelEvent(QWheelEvent* event)
+void CircuitDiagramEditor::wheelEvent(QWheelEvent* event)
 {
     if (event->modifiers().testFlag(Qt::ControlModifier))
     {
@@ -206,7 +206,7 @@ void CircuitDiagramViewer::wheelEvent(QWheelEvent* event)
     QGraphicsView::wheelEvent(event);
 }
 
-QImage CircuitDiagramViewer::toImage()
+QImage CircuitDiagramEditor::toImage()
 {
     QBrush brush = this->_scene->workplace()->brush();
     this->_scene->workplace()->setBrush(QBrush(Qt::white));

@@ -1,6 +1,6 @@
 #include <QBrush>
 #include <QCursor>
-#include "circuitdiagramviewer.h"
+#include "circuitdiagrameditor.h"
 #include "junction.h"
 #include "parameters.h"
 
@@ -16,12 +16,36 @@ Junction::Junction(QPointF pos, QGraphicsItem* parent)
     this->setZValue(10);
 
     this->contextMenu = new QMenu("Edit junction");
-    this->actionRemove = new QAction("Remove junction");
+    this->actionRemove = this->contextMenu->addAction("Remove junction");
 }
 
 void Junction::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
 {
-    QAction* selectedAction = this->contextMenu->exec(event->screenPos()); // TODO: not shown
+    if(this->parentItem())
+    {
+        QMenu itemSelectionContextMenu;
+        itemSelectionContextMenu.addAction("Junction"); // select this junction item
+
+        QString parentName;
+        if(dynamic_cast<Wire*>(this->parentItem()))
+        {
+            parentName = "Wire";
+        }
+        else if(ElectronicComponent* c = dynamic_cast<ElectronicComponent*>(this->parentItem()))
+        {
+            parentName = "Component: " + c->label()->toPlainText();
+        }
+        QAction_ptr selectParentAction = itemSelectionContextMenu.addAction(parentName);
+
+
+        QAction* selectedAction = itemSelectionContextMenu.exec(event->screenPos());
+        if(selectedAction == selectParentAction)
+        {
+            //this->parentItem()-> OPEN CONTEXT MENU OF PARENT ITEM
+        }
+    }
+
+    QAction* selectedAction = this->contextMenu->exec(event->screenPos());
 
     if(selectedAction == this->actionRemove)
     {
@@ -32,6 +56,6 @@ void Junction::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
 void Junction::mouseReleaseEvent(QGraphicsSceneMouseEvent* event)
 {
     Q_UNUSED(event);
-    dynamic_cast<CircuitDiagramViewer::Scene*>(\
+    dynamic_cast<CircuitDiagramEditor::Scene*>(\
                 this->scene())->changeWireDrawingState(this->scenePos());
 }

@@ -25,8 +25,8 @@ MainWindow::MainWindow(QWidget *parent)
                      SLOT(searchTextFieldEdited(const QString&)));
 
 
-    viewer = new CircuitDiagramViewer(QSize(1000, 725), this);
-    viewer->move(QPoint(183, this->ui->menubar->height()));
+    this->viewer = new CircuitDiagramEditor(this);
+    this->centralWidget()->layout()->addWidget(this->viewer);
 
     if(!this->loadComponentsLibrary())
     {
@@ -396,19 +396,6 @@ void MainWindow::showAbout()
                        "Curcuit diagram designer\n" \
                        "Author: Silantyev Daniel, ISPU\n" \
                        "Year: 2022");
-}
-
-void MainWindow::resizeEvent(QResizeEvent* event)
-{
-    QSize newViewerSize = QSize(event->size().width() - this->viewer->pos().x(), \
-                                event->size().height() - this->viewer->pos().y());
-    this->viewer->setMinimumSize(newViewerSize);
-    this->viewer->setMaximumSize(newViewerSize);
-
-    //this->ui->searchTextEdit->move(this->ui->searchTextEdit->x(), \
-               this->statusBar()->y() - this->ui->menubar->height() - this->ui->searchTextEdit->height());
-
-    QMainWindow::resizeEvent(event);
 }
 
 void MainWindow::exportDiagramAsImage()

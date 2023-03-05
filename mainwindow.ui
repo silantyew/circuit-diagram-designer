@@ -17,34 +17,39 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTreeWidget" name="componentsTree">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>180</width>
-      <height>550</height>
-     </rect>
-    </property>
-    <column>
-     <property name="text">
-      <string notr="true">Components</string>
-     </property>
-    </column>
-   </widget>
-   <widget class="QLineEdit" name="searchTextEdit">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>555</y>
-      <width>180</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>Type to search</string>
-    </property>
-   </widget>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="verticalFrame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QTreeWidget" name="componentsTree">
+         <column>
+          <property name="text">
+           <string notr="true">Components</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="searchTextEdit">
+         <property name="placeholderText">
+          <string>Type to search</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

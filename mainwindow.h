@@ -5,7 +5,7 @@
 #include <QTreeWidgetItem>
 #include <QList>
 #include <QResizeEvent>
-#include "circuitdiagramviewer.h"
+#include "circuitdiagrameditor.h"
 #include "electroniccomponent.h"
 #include "wire.h"
 
@@ -37,15 +37,12 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    CircuitDiagramViewer* viewer;
+    CircuitDiagramEditor* viewer;
     ElectronicComponent* test;
     Wire* wire;
     QList<const ElectronicComponent*> sampleComponentsList;
     QString exportFilename;
 
     bool loadComponentsLibrary(); // false if failed
-
-protected:
-    void resizeEvent(QResizeEvent* event);
 };
 #endif // MAINWINDOW_H

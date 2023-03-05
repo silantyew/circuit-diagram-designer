@@ -1,5 +1,5 @@
-#ifndef CIRCUITDIAGRAMVIEWER_H
-#define CIRCUITDIAGRAMVIEWER_H
+#ifndef CircuitDiagramEditor_H
+#define CircuitDiagramEditor_H
 
 #include <QGraphicsView>
 #include <QWheelEvent>
@@ -9,15 +9,15 @@
 #include "previewwire.h"
 
 
-class CircuitDiagramViewer : public QGraphicsView
+class CircuitDiagramEditor : public QGraphicsView
 {
 Q_OBJECT
 
 public:
     class Scene;
 
-    CircuitDiagramViewer(QSize viewerSize, QWidget* parent = nullptr);
-    ~CircuitDiagramViewer();
+    CircuitDiagramEditor(QWidget* parent = nullptr, QSize viewerSize = QSize(0, 0));
+    ~CircuitDiagramEditor();
     QRectF getWorkplaceRect();
     void placeComponent(ElectronicComponent* device, QPoint pos);
     void placeWire(Wire* wire);
@@ -37,7 +37,7 @@ protected:
 };
 
 
-class CircuitDiagramViewer::Scene : public QGraphicsScene
+class CircuitDiagramEditor::Scene : public QGraphicsScene
 {
 Q_OBJECT
 
@@ -65,4 +65,4 @@ protected:
     void keyPressEvent(QKeyEvent* event);
 };
 
-#endif // CIRCUITDIAGRAMVIEWER_H
+#endif // CircuitDiagramEditor_H
