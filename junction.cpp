@@ -42,8 +42,10 @@ void Junction::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
         if(selectedAction == selectParentAction)
         {
             //this->parentItem()-> OPEN CONTEXT MENU OF PARENT ITEM
+            return;
         }
     }
+
 
     QAction* selectedAction = this->contextMenu->exec(event->screenPos());
 

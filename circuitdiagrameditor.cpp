@@ -15,6 +15,10 @@ CircuitDiagramEditor::Scene::Scene() : wireDrawingInProgress(false), \
     this->_workplace = this->addRect(0, 0, \
                                      workplaceSize.width(), workplaceSize.height(), \
                                      QPen(Qt::black), QBrush(Qt::white, Qt::Dense1Pattern));
+
+    this->timer = new QTimer();
+    this->timer->setInterval(250);
+    this->timer->setSingleShot(true);
 }
 
 QGraphicsRectItem* CircuitDiagramEditor::Scene::workplace()
@@ -76,8 +80,7 @@ void CircuitDiagramEditor::Scene::changeWireDrawingState(QPointF vertexPos)
     }
     else
     {
-        this->previewWire->setEndPoint(vertexPos); // snap to junction if clicked on junction
-        this->copyPreviewWireToNewWire();
+        this->previewWire->setEndPoint(vertexPos); // snap to junction if clicked on junction`
         this->previewWire->hide();
     }
 
@@ -90,10 +93,16 @@ void CircuitDiagramEditor::Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent* ev
 {
     QGraphicsScene::mouseReleaseEvent(event);
 
+    // get rid of calling of mouseReleaseEvent twice when double-clicking
+    if(this->timer->isActive())
+    {
+        return;
+    }
+    this->timer->start();
+
     if(event->button() == Qt::MouseButton::LeftButton)
     {
-        if(this->wireDrawingInProgress && \
-           this->newWire->vertexes().last() != event->scenePos()) // compare due to inability of qt to distinguish single and double clicks
+        if(this->wireDrawingInProgress)
         {
             this->copyPreviewWireToNewWire();
         }

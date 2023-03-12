@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Circuit Diagram Designer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Resources/resistor.png</normaloff>Resources/resistor.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>

@@ -55,6 +55,7 @@ private:
     // used in proccess of drawing a new wire
     Wire* newWire;
     PreviewWire* previewWire;
+    QTimer* timer;
 
     void copyPreviewWireToNewWire();
 
