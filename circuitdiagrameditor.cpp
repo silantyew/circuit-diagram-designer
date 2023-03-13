@@ -102,7 +102,8 @@ void CircuitDiagramEditor::Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent* ev
 
     if(event->button() == Qt::MouseButton::LeftButton)
     {
-        if(this->wireDrawingInProgress)
+        if(this->wireDrawingInProgress) // before starting drawing single click will have no effect
+                                        // but when finishing drawing this click will add final point of new wire
         {
             this->copyPreviewWireToNewWire();
         }

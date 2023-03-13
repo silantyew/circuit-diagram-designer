@@ -27,6 +27,12 @@ private:
     class WireSegment;
     QList<QPointF> _vertexes;
     QList<QPointF> _junctions;
+
+    QMenu* contextMenu;
+    QAction_ptr actionRemoveWire;
+
+protected:
+    void contextMenuEvent(QGraphicsSceneContextMenuEvent* event);
 };
 
 

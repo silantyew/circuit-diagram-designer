@@ -9,6 +9,9 @@
 Wire::Wire()
 {
     this->setHandlesChildEvents(false);
+
+    this->contextMenu = new QMenu("Edit wire");
+    this->actionRemoveWire = this->contextMenu->addAction("Remove wire");
 }
 
 Wire::~Wire()
@@ -16,6 +19,16 @@ Wire::~Wire()
     for(auto& i: this->childItems())
     {
         delete i;
+    }
+}
+
+void Wire::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
+{
+    QAction* selectedAction = this->contextMenu->exec(event->screenPos());
+
+    if(selectedAction == this->actionRemoveWire)
+    {
+        delete this;
     }
 }
 

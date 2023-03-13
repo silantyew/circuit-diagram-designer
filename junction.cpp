@@ -1,5 +1,7 @@
 #include <QBrush>
 #include <QCursor>
+#include <QCoreApplication>
+#include <QGraphicsSceneContextMenuEvent>
 #include "circuitdiagrameditor.h"
 #include "junction.h"
 #include "parameters.h"
@@ -42,6 +44,8 @@ void Junction::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
         if(selectedAction == selectParentAction)
         {
             //this->parentItem()-> OPEN CONTEXT MENU OF PARENT ITEM
+            QEvent graphicsSceneContextMenuEvent(QEvent::GraphicsSceneContextMenu);
+            this->scene()->sendEvent(this->parentItem(), &graphicsSceneContextMenuEvent);
             return;
         }
     }
